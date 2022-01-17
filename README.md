@@ -36,11 +36,11 @@ Por simplicidade, vamos considerar que os fumantes são exclusivamente fumantes 
 
 Com isso, podemos formalizar algumas hipóteses:
 
-1) Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes.
-2) Pessoas que moram em regiões mais caras têm maior probabilidade de serem fumantes.
-3) Pessoas fumantes tendem a ter um IMC maior.
-4) Fumantes independem do sexo ou da idade.
-5) Fumantes vivem menos.
+- Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes.
+- Pessoas que moram em regiões mais caras têm maior probabilidade de serem fumantes.
+- Pessoas fumantes tendem a ter um IMC maior.
+- Fumantes independem do sexo ou da idade.
+- Fumantes vivem menos.
 
 
 3. Sobre as hipóteses:
