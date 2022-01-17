@@ -56,7 +56,7 @@ Com isso, podemos formalizar algumas hipóteses:
 - Fumantes vivem menos.
     Confirmado!! Pessoas viciadas em cigarro tendem a viver cerca de 2 anos menos, em média.
 
-## 4. Questões que deve ser levada ao time para uma análise mais aprofundada:
+## 4. Questões que devem ser levada ao time para uma análise mais aprofundada:
 
 - Por que mulheres que não fumam ganham mais que os homens? Ou está dentro do erro esperado?
 - Por que temos mais fumantes no sudeste? Região mais fria? Região onde tem mais renda tem mais pessoas estressadas devido ao trabalho (overwork) e levando a mais pessoas fumantes?
