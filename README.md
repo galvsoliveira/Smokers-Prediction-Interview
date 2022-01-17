@@ -45,15 +45,15 @@ Com isso, podemos formalizar algumas hipóteses:
 
 3. Sobre as hipóteses:
 
-1) Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes?
+- Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes?
     Confirmado, as pessoas com uma renda maior tem mais chances de manter o vício do tabajismo, possivelmente pelo alto preço do maço de cigarro hoje em dia. Isso reforça que as políticas de aumento do preço do cigarro causaram o decaimento de fumantes (Fonte: http://direito.folha.uol.com.br/blog/tabagismo-o-consumo-caiu-por-causa-do-preo-maior-ou-junto-com-o-aumento-do-preo)
-2) Pessoas que moram em regiões mais caras têm maior probabilidade de serem fumantes.
+- Pessoas que moram em regiões mais caras têm maior probabilidade de serem fumantes.
     Confirmado, mas seria interessante obter dados de regiões mais desiguais para comparar melhor.
-3) Pessoas fumantes tendem a ter um IMC maior.
+- Pessoas fumantes tendem a ter um IMC maior.
     Refutado, pelos dados, não podemos relacionar IMC com tabajismo.
-4) Fumantes independem do sexo.
+- Fumantes independem do sexo.
     Confirmado, o sexo da pessoa não é relevante na determinação do vício, porém, devido a homens terem uma renda maior que mulheres, há mais homens fumantes que mulheres.
-5) Fumantes vivem menos.
+- Fumantes vivem menos.
     Confirmado!! Pessoas viciadas em cigarro tendem a viver cerca de 2 anos menos, em média.
 
 4. Questões:
