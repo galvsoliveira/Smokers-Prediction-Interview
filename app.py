@@ -22,7 +22,7 @@ model = joblib.load(var_model)
 st.title("Desafio")
 
 # subtítulo
-st.markdown("Este é um Data App utilizado para exibir a solução de Machine Learning para o problema do desafio Menzoil na predição de fumantes.")
+st.markdown("Este é um Data App utilizado para exibir a solução de Machine Learning para o problema do desafio na predição de fumantes.")
 
 st.sidebar.subheader("Defina os atributos do indivíduo para predição de fumantes:")
 
