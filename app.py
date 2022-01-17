@@ -19,7 +19,7 @@ model = joblib.load(var_model)
 # model_cluster = joblib.load(var_model_cluster)
 
 # título
-st.title("Desafio Menzoil")
+st.title("Desafio")
 
 # subtítulo
 st.markdown("Este é um Data App utilizado para exibir a solução de Machine Learning para o problema do desafio Menzoil na predição de fumantes.")
