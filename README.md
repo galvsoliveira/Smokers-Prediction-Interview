@@ -1,5 +1,28 @@
 # SmokersPredictionInterview
-Sobre os dados, temos as seguintes informações:
+
+1. Contextualização
+Este projeto é parte da segunda fase de um processo seletivo da empresa Menzoil. Recebemos o conjunto de dados e somente as seguintes informações:
+
+"-- 2ª Etapa de entrevista para vaga - Cientista de dados Jr.
+
+Olá! Se você está lendo esta mensagem é porque te escolhemos para avançar em nosso processo seletivo! Parabéns =D
+O intuito agora é verificar se você possuí a capacidade de execução, e para isso temos uma lista de desafios que deve ser entregue em Python.
+Lembrando, você fará a apresentação do seu projeto em nossa próxima conversa, estamos ansiosos por isso. Rs
+Utilize o arquivo "DF Cientista de dados Jr" como base de dados para seu projeto.
+Confira os desafios logo a baixo, boa sorte!😉
+
+-- Desafios
+- ETL
+- Engenharia de variávies
+- Gráficos / Visualização
+- Correlações
+- Modelo para Classidicação - Variável target: Fumante
+- Tunagem de modelo
+
+**Caso queira fazer um webapp fique à vontade."
+
+
+2. Sobre os dados, temos as seguintes informações:
 
  - Sexo: masculino ou feminino.
  - Região: sudoeste, sudeste, nordeste, noroeste.
@@ -20,7 +43,7 @@ Com isso, podemos formalizar algumas hipóteses:
 5) Fumantes vivem menos.
 
 
-Sobre as hipóteses:
+3. Sobre as hipóteses:
 
 1) Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes?
     Confirmado, as pessoas com uma renda maior tem mais chances de manter o vício do tabajismo, possivelmente pelo alto preço do maço de cigarro hoje em dia. Isso reforça que as políticas de aumento do preço do cigarro causaram o decaimento de fumantes (Fonte: http://direito.folha.uol.com.br/blog/tabagismo-o-consumo-caiu-por-causa-do-preo-maior-ou-junto-com-o-aumento-do-preo)
@@ -33,16 +56,19 @@ Sobre as hipóteses:
 5) Fumantes vivem menos.
     Confirmado!! Pessoas viciadas em cigarro tendem a viver cerca de 2 anos menos, em média.
 
-Questões:
+4. Questões:
 
 1) Por que mulheres que não fumam ganham mais que os homens? Ou está dentro do erro esperado?
 2) Por que temos mais fumantes no sudeste? Região mais fria? Região onde tem mais renda tem mais pessoas estressadas devido ao trabalho (overwork) e levando a mais pessoas fumantes?
 3) O que leva jovens a fumarem mais?
 4) O que causa pessoas com 1 a 2 filhos terem maiores chances de serem fumantes?
 
-Modelo:
+5. Modelo:
  - O melhor modelo é o de Regressão Logística, com acurácia de 96.41%, mas com a maior precisão 85.18%. (Antes de remover Sexo, Região e Filhos).
  - Depois da remoção o melhor é o KNN, com 96.11% de acurácia e 85% de precisão.
 
-Conclusão sobre o modelo:
+5.1 Conclusão sobre o modelo:
 - A filtragem de variáveis melhorou o desempenho do modelo KNN de 95% de acurácia para 96% e a precisão de 81% para 85%. Portanto, a remoção de parâmetros não importante melhorou consideravelmente o desempenho do KNN (o que faz sentido com a teoria do KNN), facilitando o treinamento e como consequência o fitting.
+
+6. WebApp
+ O webapp está disponível no arquivo app.py. Ele foi desenvolvido no streamlit e nele é possível que o usuário insira valores de parâmetros de indivíduos a serem analisados pelo modelo. Ao pressionar um botão no aplicativo, é retornado se o indivíduo é ou não fumante e qual a probabilidade daquele valor ser real. Com base nos dados inseridos e resultantes do modelo, é formado uma tabela que pode ser baixada pelo usuário através de um botão de download no formato CSV.
