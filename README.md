@@ -1,6 +1,6 @@
 # SmokersPredictionInterview
 
-1. Contextualização
+## 1. Contextualização
 Este projeto é parte da segunda fase de um processo seletivo da empresa Menzoil. Recebemos o conjunto de dados e somente as seguintes informações:
 
 "-- 2ª Etapa de entrevista para vaga - Cientista de dados Jr.
@@ -22,7 +22,7 @@ Confira os desafios logo a baixo, boa sorte!😉
 **Caso queira fazer um webapp fique à vontade."
 
 
-2. Sobre os dados, temos as seguintes informações:
+## 2. Sobre os dados, temos as seguintes informações:
 
  - Sexo: masculino ou feminino.
  - Região: sudoeste, sudeste, nordeste, noroeste.
@@ -43,7 +43,7 @@ Com isso, podemos formalizar algumas hipóteses:
 - Fumantes vivem menos.
 
 
-3. Sobre as hipóteses:
+## 3. Sobre as hipóteses:
 
 - Pessoas que ganham mais dinheiro, tem mais chances de serem fumantes?
     Confirmado, as pessoas com uma renda maior tem mais chances de manter o vício do tabajismo, possivelmente pelo alto preço do maço de cigarro hoje em dia. Isso reforça que as políticas de aumento do preço do cigarro causaram o decaimento de fumantes (Fonte: http://direito.folha.uol.com.br/blog/tabagismo-o-consumo-caiu-por-causa-do-preo-maior-ou-junto-com-o-aumento-do-preo)
@@ -56,19 +56,19 @@ Com isso, podemos formalizar algumas hipóteses:
 - Fumantes vivem menos.
     Confirmado!! Pessoas viciadas em cigarro tendem a viver cerca de 2 anos menos, em média.
 
-4. Questões que deve ser levada ao time para uma análise mais aprofundada:
+## 4. Questões que deve ser levada ao time para uma análise mais aprofundada:
 
 - Por que mulheres que não fumam ganham mais que os homens? Ou está dentro do erro esperado?
 - Por que temos mais fumantes no sudeste? Região mais fria? Região onde tem mais renda tem mais pessoas estressadas devido ao trabalho (overwork) e levando a mais pessoas fumantes?
 - O que leva jovens a fumarem mais?
 - O que causa pessoas com 1 a 2 filhos terem maiores chances de serem fumantes?
 
-5. Modelo:
+## 5. Modelo:
  - O melhor modelo é o de Regressão Logística, com acurácia de 96.41%, mas com a maior precisão 85.18%. (Antes de remover Sexo, Região e Filhos).
  - Depois da remoção o melhor é o KNN, com 96.11% de acurácia e 85% de precisão.
 
-5.1 Conclusão sobre o modelo:
+## 5.1 Conclusão sobre o modelo:
 - A filtragem de variáveis melhorou o desempenho do modelo KNN de 95% de acurácia para 96% e a precisão de 81% para 85%. Portanto, a remoção de parâmetros não importante melhorou consideravelmente o desempenho do KNN (o que faz sentido com a teoria do KNN), facilitando o treinamento e como consequência o fitting.
 
-6. WebApp
+## 6. WebApp
  O webapp está disponível no arquivo app.py. Ele foi desenvolvido no streamlit e nele é possível que o usuário insira valores de parâmetros de indivíduos a serem analisados pelo modelo. Ao pressionar um botão no aplicativo, é retornado se o indivíduo é ou não fumante e qual a probabilidade daquele valor ser real. Com base nos dados inseridos e resultantes do modelo, é formado uma tabela que pode ser baixada pelo usuário através de um botão de download no formato CSV.
