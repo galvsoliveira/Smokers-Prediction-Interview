@@ -1,13 +1,13 @@
 # SmokersPredictionInterview
 Sobre os dados, temos as seguintes informações:
 
-Sexo: masculino ou feminino.
-Região: sudoeste, sudeste, nordeste, noroeste.
-IMC: de 15.96 à 53.13.
-Número de filhos: de 0 à 5.
-Idade: de 18 à 64.
-Renda em 2021: 1121.87 à 63770.43.
-Fumante: sim ou não.
+-Sexo: masculino ou feminino.
+-Região: sudoeste, sudeste, nordeste, noroeste.
+-IMC: de 15.96 à 53.13.
+-Número de filhos: de 0 à 5.
+-Idade: de 18 à 64.
+-Renda em 2021: 1121.87 à 63770.43.
+-Fumante: sim ou não.
 
 Por simplicidade, vamos considerar que os fumantes são exclusivamente fumantes de cigarro tradicional. O valor hoje de um maço de cigarro é em média 7.00 reais. Além disso, um estudo de 2013 revela que o brasileiro consome em média 17 cigarros por dia, e como em cada maço contém 20 cigarros, o gasto mensal fica em torno de 178.50 reais, 16.22% do salário mínimo de 2021 (Fonte: [http://g1.globo.com/pr/norte-noroeste/noticia/2015/07/pesquisa-mostra-que-fumante-gasta-r-10-mil-por-mes-com-cigarros.html](http://g1.globo.com/pr/norte-noroeste/noticia/2015/07/pesquisa-mostra-que-fumante-gasta-r-10-mil-por-mes-com-cigarros.html)).
 
