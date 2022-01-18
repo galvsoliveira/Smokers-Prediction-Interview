@@ -1,4 +1,4 @@
-# SmokersPredictionInterview
+# SmokersPredictionInterview_Insight
 
 ## 1. Contextualização
 Este projeto é parte da segunda fase de um processo seletivo da empresa X. Recebemos o conjunto de dados e somente as seguintes informações:
